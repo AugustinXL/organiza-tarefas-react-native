@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Organiza | Tarefas",
+    "slug": "organiza-tarefas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "organizatasks",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F7FB",
+    "plugins": ["expo-router"],
+    "android": {
+      "package": "com.organizatasks.app",
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.organizatasks.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Organiza | Tarefas"
+    }
+  }
+}

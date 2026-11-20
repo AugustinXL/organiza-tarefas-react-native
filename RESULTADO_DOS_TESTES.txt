@@ -1,0 +1,80 @@
+
+> organiza-tarefas@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: Quatro rotas obrigatórias possuem exportação default válida
+ok 1 - Quatro rotas obrigatórias possuem exportação default válida
+  ---
+  duration_ms: 6.217106
+  type: 'test'
+  ...
+# Subtest: Expo Router usa Stack e provider de memória no layout raiz
+ok 2 - Expo Router usa Stack e provider de memória no layout raiz
+  ---
+  duration_ms: 1.445992
+  type: 'test'
+  ...
+# Subtest: Dashboard utiliza FlatList com keyExtractor
+ok 3 - Dashboard utiliza FlatList com keyExtractor
+  ---
+  duration_ms: 1.928937
+  type: 'test'
+  ...
+# Subtest: Não há persistência ou backend no gerenciamento de tarefas
+ok 4 - Não há persistência ou backend no gerenciamento de tarefas
+  ---
+  duration_ms: 2.051812
+  type: 'test'
+  ...
+# Subtest: IDs gerados têm identificador único para a mesma marca de tempo
+ok 5 - IDs gerados têm identificador único para a mesma marca de tempo
+  ---
+  duration_ms: 1.813223
+  type: 'test'
+  ...
+# Subtest: Resumo calcula total, pendentes e concluídas com reduce
+ok 6 - Resumo calcula total, pendentes e concluídas com reduce
+  ---
+  duration_ms: 0.630216
+  type: 'test'
+  ...
+# Subtest: Filtros por status e prioridade não modificam o array original
+ok 7 - Filtros por status e prioridade não modificam o array original
+  ---
+  duration_ms: 0.295343
+  type: 'test'
+  ...
+# Subtest: Busca, edição e exclusão atingem somente a tarefa selecionada
+ok 8 - Busca, edição e exclusão atingem somente a tarefa selecionada
+  ---
+  duration_ms: 0.255653
+  type: 'test'
+  ...
+# Subtest: Conclusão pode ser revertida sem mutar a lista original
+ok 9 - Conclusão pode ser revertida sem mutar a lista original
+  ---
+  duration_ms: 0.137026
+  type: 'test'
+  ...
+# Subtest: Data é opcional, validada e convertida ao formato ISO
+ok 10 - Data é opcional, validada e convertida ao formato ISO
+  ---
+  duration_ms: 0.31974
+  type: 'test'
+  ...
+# Subtest: Tarefa concluída não aparece como atrasada
+ok 11 - Tarefa concluída não aparece como atrasada
+  ---
+  duration_ms: 0.360441
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 87.142187

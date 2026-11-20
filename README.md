@@ -1,4 +1,4 @@
-<h1 align="center">✨ Organiza.</h1>
+<h1 align="center">✨ Organiza</h1>
 
 <h3 align="center">Suas tarefas, seu ritmo.</h3>
 

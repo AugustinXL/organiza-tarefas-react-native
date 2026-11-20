@@ -1,4 +1,4 @@
-# Conferência do enunciado (páginas 1–4)
+# Conferência 
 
 | Requisito do PDF | Implementação |
 |---|---|
